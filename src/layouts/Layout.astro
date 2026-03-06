@@ -1,0 +1,27 @@
+---
+// Import komponen React yang sudah kita buat
+import Sertifikat from "../components/Sertifikat.jsx";
+import "../styles/global.css";
+---
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>Sertifikat - Validasi Sertifikat Kemenag Mamasa</title>
+  </head>
+  <body class="bg-slate-100 m-0 p-0">
+    <!--
+      Render komponen React sebagai Astro Island.
+      Kita WAJIB menggunakan directive client:only="react" karena
+      aplikasi kita banyak memanggil objek browser (seperti localStorage
+      dan window.gapi) yang tidak tersedia di sisi server (SSR) Astro.
+    -->
+    <Sertifikat client:only="react" />
+  </body>
+</html>
