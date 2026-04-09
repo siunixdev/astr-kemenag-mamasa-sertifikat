@@ -1119,7 +1119,7 @@ export default function App() {
                     />
                     <div>
                       <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-widest mb-1">
-                        Transkrip Nilai
+                        Pembinaan Kepegawaian KanKemenag Mamasa
                       </h2>
                       <h3 className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em]">
                         Pelatihan Pembinaan Kepegawaian
@@ -1213,7 +1213,7 @@ export default function App() {
                           Total Jam Pelajaran
                         </td>
                         <td className="py-4 px-4 text-center font-black text-xl text-[#0f172a] rounded-br-lg">
-                          6 JP
+                          7 JP
                         </td>
                       </tr>
                     </tfoot>
