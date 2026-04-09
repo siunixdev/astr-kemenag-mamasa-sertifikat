@@ -1250,7 +1250,7 @@ export default function App() {
                   <div className="text-center w-48">
                     <div className="border-b border-slate-400 pb-1 mb-1 mt-12">
                       <p className="text-[10px] font-black text-[#0f172a] uppercase tracking-wider">
-                        Budi Wirawan, S.T.
+                        YUSUF S.T, M.M.
                       </p>
                     </div>
                     <p className="text-[8px] text-slate-500 uppercase tracking-widest font-bold">
