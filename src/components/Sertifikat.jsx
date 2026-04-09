@@ -1168,10 +1168,10 @@ export default function App() {
                           Tahun 2026
                         </td>
                         <td className="py-4 px-4 text-slate-600 text-xs font-medium">
-                          Tim Kemenag
+                          Ka. Kanwil Kemenag Sulbar
                         </td>
                         <td className="py-4 px-4 text-center font-black text-[#f59e0b] text-base">
-                          1
+                          2
                         </td>
                       </tr>
                       <tr className="border-b border-slate-200 bg-slate-50/50">
@@ -1183,7 +1183,7 @@ export default function App() {
                           Instansi Tahun 2026
                         </td>
                         <td className="py-4 px-4 text-slate-600 text-xs font-medium">
-                          Tim Kepegawaian
+                          Tim Kepegawaian Kanwil Kemenag Sulbar
                         </td>
                         <td className="py-4 px-4 text-center font-black text-[#f59e0b] text-base">
                           2
@@ -1197,7 +1197,7 @@ export default function App() {
                           Pengembangan Karir dan Pengembangan Kompetensi ASN
                         </td>
                         <td className="py-4 px-4 text-slate-600 text-xs font-medium">
-                          Tim Ahli
+                          Tim Kepegawaian Kanwil Kemenag Sulbar
                         </td>
                         <td className="py-4 px-4 text-center font-black text-[#f59e0b] text-base">
                           3
