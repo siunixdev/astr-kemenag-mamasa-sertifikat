@@ -1119,7 +1119,7 @@ export default function App() {
                     />
                     <div>
                       <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-widest mb-1">
-                        Pembinaan Kepegawaian KanKemenag Mamasa
+                        Kantor Kemenag Mamasa
                       </h2>
                       <h3 className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em]">
                         Pelatihan Pembinaan Kepegawaian
