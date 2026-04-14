@@ -1028,7 +1028,14 @@ export default function App() {
                 {/* Footer / Tanda Tangan */}
                 <div className="w-full flex justify-between items-end px-4">
                   {/* Tanda Tangan Kiri */}
-                  <div className="text-center w-48">
+                  <div className="text-center w-48 relative">
+                    <img
+                      src={"/ttd-nawir.png"}
+                      alt="Tanda Tangan Kepala Kantor"
+                      className="w-24 h-auto object-contain mb-2 absolute -top-2 left-10"
+                      crossOrigin="anonymous"
+                    />
+
                     <div className="border-b border-slate-400 pb-1 mb-1 mt-12">
                       <p className="text-[10px] font-black text-[#0f172a] uppercase tracking-wider">
                         MUNAWIR, S.E.
@@ -1067,7 +1074,7 @@ export default function App() {
                       <img
                         src={"/ttd.png"}
                         alt="Tanda Tangan Kepala Kantor"
-                        className="w-32 h-auto object-contain mb-2 absolute top-0 opacity-60"
+                        className="w-32 h-auto object-contain mb-2 absolute top-0 opacity-80"
                         crossOrigin="anonymous"
                       />
 
@@ -1083,7 +1090,13 @@ export default function App() {
                   </div>
 
                   {/* Tanda Tangan Kanan */}
-                  <div className="text-center w-48">
+                  <div className="text-center w-48 relative">
+                    <img
+                      src={"/ttd-yusuf.png"}
+                      alt="Tanda Tangan Kepala Kantor"
+                      className="w-32 h-auto object-contain mb-2 absolute top-0 left-4"
+                      crossOrigin="anonymous"
+                    />
                     <div className="border-b border-slate-400 pb-1 mb-1 mt-12">
                       <p className="text-[10px] font-black text-[#0f172a] uppercase tracking-wider">
                         YUSUF S.T, M.M.
