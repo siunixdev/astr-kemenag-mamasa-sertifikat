@@ -994,11 +994,11 @@ export default function App() {
                 </div>
 
                 {/* Judul Sertifikat */}
-                <div className="mb-8">
+                <div className="mb-4">
                   <h1 className="text-6xl font-black text-[#0f172a] tracking-[0.15em] uppercase leading-none">
                     Sertifikat
                   </h1>
-                  <p className="text-xs font-bold text-slate-500 tracking-[0.3em] uppercase mt-3">
+                  <p className="text-xs font-bold text-slate-500 tracking-[0.3em] uppercase mt-1">
                     No: {selectedUser.certId}
                   </p>
                 </div>
@@ -1016,7 +1016,7 @@ export default function App() {
                 </div>
 
                 {/* Deskripsi */}
-                <p className="text-xs text-slate-600 leading-relaxed max-w-lg mx-auto uppercase tracking-widest font-semibold">
+                <p className="text-xs text-slate-600 leading-relaxed max-w-3xl mx-auto uppercase tracking-widest font-semibold mb-4">
                   Atas dedikasi dan partisipasinya sebagai{" "}
                   <span className="font-bold text-[#f59e0b]">
                     {selectedUser.role}
@@ -1026,7 +1026,7 @@ export default function App() {
                 </p>
 
                 {/* Footer / Tanda Tangan */}
-                <div className="w-full flex justify-between items-end mt-20 px-4">
+                <div className="w-full flex justify-between items-end px-4">
                   {/* Tanda Tangan Kiri */}
                   <div className="text-center w-48">
                     <div className="border-b border-slate-400 pb-1 mb-1 mt-12">
@@ -1041,7 +1041,7 @@ export default function App() {
 
                   {/* QR Code & Tanggal (Tengah) */}
                   <div className="flex flex-col items-center justify-center">
-                    <p className="text-[9px] text-[#0f172a] tracking-widest uppercase font-bold mb-3">
+                    <p className="text-[9px] text-[#0f172a] tracking-widest uppercase font-bold mb-6">
                       Mamasa, 11 Februari 2026
                     </p>
                     <div className="p-1 bg-white border-2 border-slate-100 rounded-lg shadow-sm mb-1">
@@ -1052,9 +1052,34 @@ export default function App() {
                         crossOrigin="anonymous"
                       />
                     </div>
-                    <p className="text-[6px] text-slate-400 uppercase tracking-[0.2em] font-bold">
+                    <p className="text-[6px] text-slate-400 uppercase tracking-[0.2em] font-bold mb-8">
                       No: {selectedUser.certId}
                     </p>
+
+                    {/* Tambahan Mengetahui */}
+                    <div className="text-center w-48 relative">
+                      <p className="text-[8px] text-[#0f172a] uppercase tracking-widest font-bold mb-14">
+                        Mengetahui,
+                        <br />
+                        Kepala Kantor
+                      </p>
+                      {/* ttd image from img public folder */}
+                      <img
+                        src={"/ttd.png"}
+                        alt="Tanda Tangan Kepala Kantor"
+                        className="w-32 h-auto object-contain mb-2 absolute top-0 opacity-60"
+                        crossOrigin="anonymous"
+                      />
+
+                      <div className="border-b border-slate-400 pb-1 mb-1">
+                        <p className="text-[10px] font-black text-[#0f172a] uppercase tracking-wider">
+                          H. RAMLI, S.Ag., M.Pd.I
+                        </p>
+                      </div>
+                      <p className="text-[8px] text-slate-500 uppercase tracking-widest font-bold">
+                        NIP. 19700514 199803 1 004
+                      </p>
+                    </div>
                   </div>
 
                   {/* Tanda Tangan Kanan */}
