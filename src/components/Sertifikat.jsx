@@ -1078,7 +1078,7 @@ export default function App() {
 
                       <div className="border-b border-slate-400 pb-1 mb-1">
                         <p className="text-[10px] font-black text-[#0f172a] uppercase tracking-wider">
-                          H. RAMLI, S.Ag., M.Pd.I
+                          H. RAMLI L., S.Ag., M.Pd.I
                         </p>
                       </div>
                       <p className="text-[8px] text-slate-500 uppercase tracking-widest font-bold">
