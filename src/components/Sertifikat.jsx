@@ -1082,7 +1082,7 @@ export default function App() {
                         </p>
                       </div>
                       <p className="text-[8px] text-slate-500 uppercase tracking-widest font-bold">
-                        NIP. 19700514 199803 1 004
+                        NIP. 197206012005011008
                       </p>
                     </div>
                   </div>
