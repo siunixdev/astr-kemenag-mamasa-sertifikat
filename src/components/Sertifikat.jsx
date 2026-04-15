@@ -1009,7 +1009,7 @@ export default function App() {
                 </p>
 
                 <div className="w-full flex flex-col items-center mb-6">
-                  <h2 className="text-[3rem] font-serif font-black text-[#0f172a] leading-tight px-8 tracking-wider max-w-3xl mx-auto">
+                  <h2 className="text-[38px] font-serif font-black text-[#0f172a] leading-tight px-8 tracking-wider max-w-3xl mx-auto">
                     {selectedUser.name}
                   </h2>
                   <div className="w-3/4 h-[1.5px] bg-[#0f172a]/30 mt-4"></div>
