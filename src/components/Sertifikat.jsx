@@ -1028,7 +1028,7 @@ export default function App() {
                 {/* Footer / Tanda Tangan */}
                 <div className="w-full flex justify-between items-end px-4">
                   {/* Tanda Tangan Kiri */}
-                  <div className="text-center w-48 relative">
+                  <div className="text-center w-48 relative top-[-140px]">
                     <img
                       src={"/ttd-yusuf.png"}
                       alt="Tanda Tangan Kepala Kantor"
@@ -1088,7 +1088,7 @@ export default function App() {
                   </div>
 
                   {/* Tanda Tangan Kanan */}
-                  <div className="text-center w-48 relative">
+                  <div className="text-center w-48 relative top-[-140px]">
                     <img
                       src={"/ttd-nawir.png"}
                       alt="Tanda Tangan Kepala Kantor"
